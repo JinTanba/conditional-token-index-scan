@@ -126,8 +126,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       polynance_sdk:
-        specifier: latest
-        version: 1.0.1-beta.2
+        specifier: 1.0.1-beta.2.1
+        version: 1.0.1-beta.2.1
       react:
         specifier: ^19
         version: 19.1.0
@@ -2134,8 +2134,8 @@ packages:
     resolution: {integrity: sha512-TfySrs/5nm8fQJDcBDuUng3VOUKsd7S+zqvbOTiGXHfxX4wK31ard+hoNuvkicM/2YFzlpDgABOevKSsB4G/FA==}
     engines: {node: '>= 6'}
 
-  polynance_sdk@1.0.1-beta.2:
-    resolution: {integrity: sha512-9ZtphlXAg+X+1snLT8CFIi/jTeW1PAXpfjMvpC99G+8PsUKxKpEccOanvP1qy41k33jnVtfYDrKcFqXQ/Icz7Q==}
+  polynance_sdk@1.0.1-beta.2.1:
+    resolution: {integrity: sha512-vcddDs2soACrIXjMYotxTRqJmWjs3U/6mpRzErsr2UApQYNpNul0VjDxrN66A56OKG2/DrkM4zo4x8QFM4UTLg==}
     engines: {node: '>=18.0.0'}
 
   postcss-import@15.1.0:
@@ -4815,7 +4815,7 @@ snapshots:
 
   pirates@4.0.7: {}
 
-  polynance_sdk@1.0.1-beta.2:
+  polynance_sdk@1.0.1-beta.2.1:
     dependencies:
       '@polymarket/clob-client': 4.15.0
       axios: 1.9.0
