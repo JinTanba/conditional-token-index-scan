@@ -3,14 +3,9 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      {
-        protocol: 'http',
-        hostname: '57.180.216.102',
-        port: '9000',
-        pathname: '**',
-      },
+      { protocol: 'https', hostname: '**', pathname: '**' },
+      { protocol: 'http',  hostname: '**', pathname: '**' },
     ],
-    unoptimized: true,
   },
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
