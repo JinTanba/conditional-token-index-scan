@@ -138,8 +138,6 @@ class PolynanceService {
 
   constructor() {
     this.sdk = new SDK({
-      apiBaseUrl: "http://57.180.216.102:9000",
-      sseBaseUrl: "http://57.180.216.102:9000",
     })
   }
 
